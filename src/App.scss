@@ -1,0 +1,12 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+  &.dark {
+    background-color: black;
+    color: rgb(177, 62, 62);
+    border-color: solid 2px aqua;
+    input {
+      border-color: solid 2px aqua;
+    }
+  }
+}
